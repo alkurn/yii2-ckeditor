@@ -17,7 +17,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require alkurn/yii2-ckeditor
+composer require "alkurn/yii2-ckeditor" "dev-master"
 ```
 or add
 
