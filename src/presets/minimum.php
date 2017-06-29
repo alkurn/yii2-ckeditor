@@ -10,7 +10,6 @@
 return [
     'height' => 200,
     'toolbarGroups' => [
-        ['name' => 'clipboard', 'groups' => ['mode', 'undo', 'selection', 'clipboard', 'doctools']],
         ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
         ['name' => 'colors'],
         ['name' => 'links', 'groups' => ['links', 'insert']],
