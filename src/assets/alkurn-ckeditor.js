@@ -5,7 +5,7 @@
 if (typeof alkurn == "undefined" || !alkurn) {
     var alkurn = {};
 }
-
+CKEDITOR.config.extraPlugins = 'justify';
 alkurn.ckEditorWidget = (function ($) {
 
     var pub = {

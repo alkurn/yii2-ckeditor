@@ -12,6 +12,7 @@ return [
     'toolbarGroups' => [
         ['name' => 'clipboard', 'groups' => ['mode', 'undo', 'selection', 'clipboard', 'doctools']],
         ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
+        ['name' => 'align'],
         ['name' => 'colors'],
         ['name' => 'links', 'groups' => ['links', 'insert']],
         ['name' => 'others', 'groups' => ['others', 'about']],
