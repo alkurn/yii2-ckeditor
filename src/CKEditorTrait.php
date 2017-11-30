@@ -52,6 +52,7 @@ trait CKEditorTrait
             case 'full':
             case 'standard':
             case 'minimum':
+            case 'text':
                 $preset = 'presets/' . $this->preset . '.php';
                 break;
             default:
