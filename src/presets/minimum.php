@@ -8,12 +8,12 @@
  * @link http://www.alkurn.info/
  */
 return [
-    'height' => 200,
+    'height' => 300,
     'toolbarGroups' => [
-        ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
+        ['name' => 'basicstyles', 'groups' => ['mode', 'basicstyles', 'cleanup']],
+        ['name' => 'paragraph', 'groups' => ['templates', 'list', 'indent', 'align', 'links']],
         ['name' => 'colors'],
     ],
-    'removeButtons' => 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe',
-    'removePlugins' => 'elementspath',
+    'removeButtons' => 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe,Anchor',
     'resize_enabled' => false
 ];
