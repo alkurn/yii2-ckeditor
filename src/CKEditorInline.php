@@ -81,6 +81,9 @@ class CKEditorInline extends Widget
             ? Json::encode($this->clientOptions)
             : '{}';
 
+        $js[] = "CKEDITOR.extraAllowedContent = '*{*}';";
+        $js[] = "CKEDITOR.allowedContent = true;";
+
         if ($this->disableAutoInline) {
             $js[] = "CKEDITOR.disableAutoInline = true;";
         }
